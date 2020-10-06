@@ -38,9 +38,9 @@ CREATE TABLE `aluno` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `aluno` (`COD_RA_ALUNO`, `COD_CURSO`, `NOM_ALUNO`, `DES_EMAIL`, `DTA_MATRICULA`, `NUM_MEDIA_GLOBAL`) VALUES
-(4204117, 1, 'Claudimar Saraiva de Castro', 'claudimar@gmail.com', '2018-01-01 00:00:00', 75),
-(12105855, 1, 'Rodolpho Henrique Maia Braga', 'rodolpho@gmail.com', '2018-01-01 00:00:00', 80),
-(111114321, 1, 'Tamara Geralda Batista Sales', 'tamara@gmail.com', '2018-01-01 00:00:00', 85);
+(4204117, 1, 'Claudimar', 'claudimar@gmail.com', '2018-01-01 00:00:00', 75),
+(12105855, 1, 'Rodolpho', 'rodolpho@gmail.com', '2018-01-01 00:00:00', 80),
+(111114321, 1, 'Tamara', 'tamara@gmail.com', '2018-01-01 00:00:00', 85);
 
 DROP TABLE IF EXISTS `area_pesquisa`;
 CREATE TABLE `area_pesquisa` (
